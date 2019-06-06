@@ -19,17 +19,24 @@ body {
 
 #info > h1 {
     font-family: 'Exo 2', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.575rem;
 }
 
 #info > p:nth-child(2) {
-    font-family: 'Cuprum', sans-serif;
-    color: #a64dff;                 /*blueviolet*/
+    font-family: 'Exo 2', sans-serif;
+    color: lightseagreen;
+    font-size: 0.937rem;         
 }
 
-#info > p:nth-child(3) {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 0.8rem;
+#info > p:nth-child(4) {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 0.878rem;
+}
+
+#info a {
+    font-family: 'Exo 2', sans-serif;
+    color: hsl(177, 80%, 41%); 
+    font-size: 0.9rem;
 }
 
 #exo-container {
@@ -71,7 +78,7 @@ body {
         background-position: 0 0;
     }
     100% {
-        background-position: 630px 0;
+        background-position: 64rem 0;      /*The Mercury image is 1024px or 64rem wide*/
     }
 }
 
