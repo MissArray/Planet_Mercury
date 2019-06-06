@@ -28,7 +28,7 @@ body {
     font-size: 0.937rem;         
 }
 
-#info > p:nth-child(4) {
+#info > p:nth-child(3), p:nth-child(5) {
     font-family: 'Exo 2', sans-serif;
     font-size: 0.878rem;
 }
