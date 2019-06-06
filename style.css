@@ -1,0 +1,101 @@
+body {
+    background: #01000c;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#info {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    width: 15vw;
+    height: auto;
+    color: #07b7bd;
+}
+
+#info > h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.5rem;
+}
+
+#info > p:nth-child(2) {
+    font-family: 'Cuprum', sans-serif;
+    color: #a64dff;                 /*blueviolet*/
+}
+
+#info > p:nth-child(3) {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 0.8rem;
+}
+
+#exo-container {
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    width: 40rem;
+    padding: 4px;
+    position: relative;
+    /* box-sizing: border-box; */
+}
+
+#exoplanet {
+    display: block;
+    position: absolute;
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+    border-left: 1px outset #242f31f6;
+    border-right: 1px solid rgb(21, 149, 172);
+    background-image: url(./Mercury_Messenger_USGS_ClrShade_Global_1024_Astrogeology-USGS.jpg);
+    /* background-size: cover;
+    background-repeat: repeat; */
+    background-position: center center;
+    transition: transform 0.001s linear;
+    animation: orbit 12s infinite linear;
+    box-shadow: inset 90px 0 90px 20px rgb(13, 13, 14), 1px 0px 90px 15px #5bdcf342;
+    transform-style: preserve-3d;          
+    }
+
+/* ANIMATION */
+
+
+@keyframes orbit {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 630px 0;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+#container {
+    flex-direction: column;
+    align-content: center;
+    padding: 0.25rem;
+}
+
+#info {
+    width: 95vw;
+}
+
+#exo-container{
+    width: 100%;
+    margin-top: 7rem;
+    transform: scale(0.60);
+}
+
+#info > p {
+    margin: 0.4rem;
+}
+
+}
