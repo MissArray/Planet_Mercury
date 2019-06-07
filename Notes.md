@@ -1,5 +1,7 @@
 # Mercury - CSS Animation
 
+Note: a Mercurian day lasts 58.6 hours. On the basis of 1 hour = 1 second, the planet's spin should equal 5.86 seconds. This, however, looks unpleasantly fast on small and large screens, so in the animation, Mercury spins at half the representative speed, taking 11.72 seconds.
+
 ## Sources
 
 ### Mercury map:

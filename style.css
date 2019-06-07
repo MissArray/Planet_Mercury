@@ -65,7 +65,7 @@ body {
     background-repeat: repeat; */
     background-position: center center;
     transition: transform 0.001s linear;
-    animation: orbit 12s infinite linear;
+    animation: orbit  11.72s infinite linear;
     box-shadow: inset 90px 0 90px 20px rgb(13, 13, 14), 1px 0px 90px 15px #5bdcf342;
     transform-style: preserve-3d;          
     }
